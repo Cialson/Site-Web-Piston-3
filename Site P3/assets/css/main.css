@@ -3325,7 +3325,6 @@ input, select, textarea {
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 		opacity: 1;
-		padding-top: 3em;
 	}
 
 		#page-wrapper:before {
@@ -3894,14 +3893,11 @@ input, select, textarea {
 /* Main */
 
 	#main > header {
-		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
+		padding: 12em 0 8em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ginette.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ginette.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ginette.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/ginette.jpg");
 		background-size: cover;
 		text-align: center;
 	}
@@ -3967,6 +3963,11 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/longue.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/longue.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/longue.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/longue.jpg");
+		background-size: cover;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -4069,7 +4070,7 @@ input, select, textarea {
 
     body.is-mobile.landing #navmenu {
 				display: none;
-			}
+    }
     body.is-mobile.landing #header {
 				visibility: visible;
-			}
+    }
