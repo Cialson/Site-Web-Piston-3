@@ -11,3 +11,7 @@ ul{
 {
     display: block;
 }
+
+.plus-ou-moins{
+    float: right;
+}
