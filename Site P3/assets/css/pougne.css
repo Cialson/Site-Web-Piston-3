@@ -1,0 +1,13 @@
+ul{
+    list-style-type: disc;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.showed
+{
+    display: block;
+}
