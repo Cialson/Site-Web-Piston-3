@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/pougne.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
@@ -64,6 +65,150 @@ Ne t'inquiète pas, futur sup, tu le découvriras bien assez tôt.<br>
 La Pougne à Ginette, c'est le travail; et du travail, il y en a beaucoup...</p></font></center>
                                 
                                 <hr />
+
+
+								<h3>L'emploi du temps</h3>
+
+                                <table class='alt' id="emploi-du-temps">
+                                    <tr class="Jours">
+                                      <td>&nbsp;</th>
+                                      <td>Lundi</th>
+                                      <td>Mardi</th>
+                                      <td>Mercredi</th>
+                                      <td>Jeudi</th>
+                                      <td>Vendredi</th>
+                                      <td>Samedi</th>
+                                    </tr>
+                                    <tr>
+                                      <td rowspan=2 class="heure">8h15-10h15</td>
+                                      <td rowspan=2 class="maths"><a href="#maths">Maths</a></td>
+                                      <td rowspan=2 class="maths"><a href="#maths">Maths</a></td>
+                                      <td rowspan=2 class="physique"><a href="#physique">TD Physique</a></td>
+                                      <td rowspan=2 class="maths"><a href="#maths">Maths</a></td>
+                                      <td rowspan=2 class="anglais"><a href="#anglais">Anglais LV1</a></td>
+                                      <td rowspan=2 class="chimie"><a href="#chimie">Chimie</a></td>
+                                    </tr>
+                                    <tr>
+
+                                    </tr>
+                                    <tr>
+                                      <td rowspan=2 class="heure">10h30-12h30</td>
+                                      <td rowspan=2 class="physique"><a href="#physique">Physique</a></td>
+                                      <td rowspan=1 class="maths"><a href="#maths">TD Maths</a></td>
+                                      <td rowspan=2 class="chimie"><a href="#chimie">TP Chimie</a></td>
+                                      <td rowspan=1 class="rabinage">Rabinage</td>
+                                      <td rowspan=2 class="maths"><a href="#maths">TD Maths</a></td>
+                                      <td rowspan=2 class="physique"><a href="#physique">Physique</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td rowspan=1 class="physique"><a href="#physique">TD Physique</a></td>
+                                      <td rowspan=1 class="maths"><a href="#maths">Maths</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan=7 class="midi">MIDI</td>
+                                    </tr>
+                                    <tr>
+                                      <td rowspan=2 class="heure">14h-16h</td>
+                                      <td rowspan=2 class="francais"><a href="#francais">Français</a></td>
+                                      <td rowspan=1 class="physique"><a href="#physique">Physique</a></td>
+                                      <td rowspan=2 class="sport">Sport</td>
+                                      <td rowspan=4 class="jeudi-aprem">Sport en équipe<br/>ou Activités Sociales</td>
+                                      <td rowspan=1 class="SI"><a href="#SI">SI</a></td>
+                                      <td rowspan=4 class="compo"><a href="#pale">Composition<br/>(13h30-17h30)</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td rowspan=1 class="info"><a href="#informatique">Informatique</a></td>
+                                      <td rowspan=1 class="SI"><a href="#SI">TD SI</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td rowspan=2 class="heure">16h-18h</td>
+                                      <td rowspan=4 class="rien">&nbsp;</td>
+                                      <td rowspan=2 class="rien">&nbsp;</td>
+                                      <td rowspan=3 class="rien">&nbsp;</td>
+                                      <td rowspan=1 class="info"><a href="#informatique">TP Info</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan=3 class="rien">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td rowspan=2 class="heure">18h-20h</td>
+										<td rowspan=2 class="SI"><a href="#SI">TP SI</a></td>
+                                      
+                                      <td rowspan=2 class="rien">&nbsp;</td>
+                                      <td rowspan=2 class="rien">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan=1 class="allemand"><a href="#allemand">Allemand</a></td>
+                                    </tr>
+                                  </table>
+
+								  <hr>
+
+                                  <!--Description des matières à laisser aux CDs de chaque matière-->
+								  <div class="plus-ou-moins-container">
+									<h3 id="matieres">Les matières</h3>
+									<a href="#matieres" id="devoileur-matieres" class="plus-ou-moins button primary">+</a>
+								  </div>
+								  
+								  <ul id='description-matieres' class="alt hidden">
+                                  <li><div class="matiere" id="maths">
+                                    <h4>Les Maths</h4>
+                                    <p class="professeur">Claire TÊTE</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Votre CD Maths</p>
+                                  </div></li>
+
+                                  <li><div class="matiere" id="physique">
+                                    <h4>La Physique</h4>
+                                    <p class="professeur">Marie-Odile HEBERT (alias #MOH alias "La flêche")</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Votre CD Physique</p>
+                                  </div></li>
+
+                                  <li><div class="matiere" id="chimie">
+                                    <h4>La Chimie</h4>
+                                    <p class="professeur">Anne-Sophie BERNARD (alias Anne-So alias "La Comète")</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Votre CD Chimie</p>
+                                  </div></li>
+
+                                  <li><div class="matiere" id="SI">
+                                    <h4>Les Sciences Industrielles de l'Ingénieur</h4>
+                                    <p class="professeur">... MUNIER</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Votre CD SI</p>
+                                  </div></li>
+
+                                  <li><div class="matiere" id="info">
+                                    <h4>L'informatique</h4>
+                                    <p class="professeur">Claire Tête et MOH</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Votre CD Info</p>
+                                  </div></li>
+
+                                  <li><div class="matiere" id="anglais">
+                                    <h4>L'anglais</h4>
+                                    <p class="professeur">Mme de LAUZON vs Mme POSTEC</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Vos CD Anglais</p>
+                                  </div></li>
+                                  
+                                  <li><div class="matiere" id="allemand">
+                                    <h4>L'alleamnd</h4>
+                                    <p class="professeur">Mme Dumas</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Votre CD Allemand (en fait je suis le seul de la classe à y aller...)</p>
+                                  </div></li>
+
+                                  <li><div class="matiere" id="francais">
+                                    <h4>Le Français</h4>
+                                    <p class="professeur">Mme LAUSSUCQ</p>
+                                    <p>Les maths c'est over-cool...</p>
+                                    <p class="auteur">Votre CD Français</p>
+                                  </div></li>
+								</ul>
+
+								  <hr>
                                 
                                 <h3>Emploi du temps</h3>
 								<p>Avec ses 35 heures de cours hebdomadaires et son nombre incalculable d'heures de travail personnel, notre emploi du temps remplit pleinement nos journées.</p>
@@ -222,6 +367,8 @@ Mais ne t’en fais pas futur-Sup, tu t’habitueras très vite à ce rythme de 
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/pougne.js"></script>
+
 
 	</body>
 </html>
