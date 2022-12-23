@@ -1,28 +1,32 @@
-let matieres = ['maths', 'physique', 'chimie', 'SI', 'info', 'francais', 'anglais', 'allemand'];
-let blocksMatieres = [];
-let descriptionMatieres = [];
+let plusOuMoins = document.getElementsByClassName("plus-ou-moins");
+let matiereDevoileur = document.getElementById('matiere-devoileur');
+let tableau = document.getElementById('emploi-du-temps');
+let descriptionMatieres = document.getElementById('description-matieres');
+let devoileurMatieres = document.getElementById('devoileur-matieres');
 
 
+for (let elt of plusOuMoins){
+		elt.addEventListener('click', function() {
+			if (elt.parentElement.nextElementSibling.classList.contains("hidden")){
+				elt.parentElement.nextElementSibling.classList.remove("hidden");
+				elt.parentElement.nextElementSibling.classList.add("showed");
+				elt.innerText = "-"
+				elt.title = "Voir moins"
+			}
+			else{
+				elt.parentElement.nextElementSibling.classList.remove("showed");
+				elt.parentElement.nextElementSibling.classList.add("hidden");
+				elt.innerText = "+"
+				elt.title = "Voir plus"
+			}
+});}
 
-for (let matiere in matieres){
-    blocksMatieres.push(document.getElementsByClassName(matiere));
-    descriptionMatieres.push(document.getElementById(matiere));
-    document.getElementById(matieres).classList.add('test');
-    for (let block in document.getElementsByClassName(matiere)){
-        block.classList.add("test");
+tableau.addEventListener('click', function(){
+    if (descriptionMatieres.classList.contains("hidden")){
+        descriptionMatieres.classList.remove("hidden");
+        descriptionMatieres.classList.add("showed");
+        devoileurMatieres.innerText = "-"
+        devoileurMatieres.title = "Voir moins"
     }
-}
-
-let fuck = document.getElementById('maths');
-fuck.innerHTML = blocksMatieres;
-
-for (let i = 0; i < blocksMatieres.length; i++){
-    for (let block in blocksMatieres[i]){
-        block.addEventListener("mouseover", function(){
-            descriptionMatieres[i].classList.remove("hidden");
-            descriptionMatieres[i].classList.add("full-screen");
-        });
-        block.classList.add("test");
-    }
-}
+});
 

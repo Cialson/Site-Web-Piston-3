@@ -14,9 +14,9 @@ full-screen
     position: absolute;
 }
 
-test
+.heure, .Jours td
 {
-    background-color: blue;
+    font-weight: bold;
 }
 
 table a
@@ -28,4 +28,21 @@ table a:hover
 {
     
     border-bottom: 2px dotted;
+    border-bottom: 2px dotted rgb(0, 0, 0, 0.5);
+}
+
+.hidden
+{
+    display: none;
+}
+
+.showed
+{
+    display: block;
+}
+
+.plus-ou-moins-container
+{
+    display: flex;
+    justify-content: space-between;
 }
