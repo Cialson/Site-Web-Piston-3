@@ -3978,6 +3978,27 @@ input, select, textarea {
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+/* flèche */
+
+#btn{
+    visibility: visible;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.icone{
+    width: 50px;
+    
+}
+
 /* img */
 
 
@@ -4177,4 +4198,7 @@ input, select, textarea {
     }
     body.is-mobile.landing #header {
 				visibility: visible;
+    }
+    body.is-mobile.landing #btn {
+				visibility: hidden;
     }
