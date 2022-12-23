@@ -14,11 +14,11 @@ for (let matiere in matieres){
 }
 
 let fuck = document.getElementById('maths');
-fuck.innerHTML = matieres[5];
+fuck.innerHTML = blocksMatieres;
 
 for (let i = 0; i < blocksMatieres.length; i++){
     for (let block in blocksMatieres[i]){
-        block.addEventListener("click", function(){
+        block.addEventListener("mouseover", function(){
             descriptionMatieres[i].classList.remove("hidden");
             descriptionMatieres[i].classList.add("full-screen");
         });

@@ -18,3 +18,14 @@ test
 {
     background-color: blue;
 }
+
+table a
+{
+    border: none;
+}
+
+table a:hover
+{
+    
+    border-bottom: 2px dotted;
+}
