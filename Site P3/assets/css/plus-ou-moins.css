@@ -1,0 +1,15 @@
+.hidden
+{
+    display: none;
+}
+
+.showed
+{
+    display: block;
+}
+
+.plus-ou-moins-container
+{
+    display: flex;
+    justify-content: space-between;
+}
