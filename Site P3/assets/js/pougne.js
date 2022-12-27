@@ -3,6 +3,10 @@ let matiereDevoileur = document.getElementById('matiere-devoileur');
 let tableau = document.getElementById('emploi-du-temps');
 let descriptionMatieres = document.getElementById('description-matieres');
 let devoileurMatieres = document.getElementById('devoileur-matieres');
+descriptionMatieres.classList.remove("showed");
+descriptionMatieres.classList.add("hidden");
+devoileurMatieres.innerText = "+"
+devoileurMatieres.title = "Voir plus"
 
 
 for (let elt of plusOuMoins){
