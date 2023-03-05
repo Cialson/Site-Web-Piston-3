@@ -5,12 +5,14 @@ for (let elt of plusOuMoins){
 			if (elt.parentElement.nextElementSibling.classList.contains("hidden")){
 				elt.parentElement.nextElementSibling.classList.remove("hidden");
 				elt.parentElement.nextElementSibling.classList.add("showed");
+				elt.previousElementSibling.innerText = "La journée type à la Bj"
 				elt.innerText = "-"
 				elt.title = "Voir moins"
 			}
 			else{
 				elt.parentElement.nextElementSibling.classList.remove("showed");
 				elt.parentElement.nextElementSibling.classList.add("hidden");
+				elt.previousElementSibling.innerText = "Découvrir une journée type à la Bj"
 				elt.innerText = "+"
 				elt.title = "Voir plus"
 			}
