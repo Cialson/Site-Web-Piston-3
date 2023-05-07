@@ -10,9 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/noscript.css" />
 		<link rel="stylesheet" href="assets/css/plus-ou-moins.css" />
 		<link rel="icon" type="image/png" href="images\logo.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
 
@@ -22,27 +22,24 @@
 		<!-- Page Wrapper -->
 		<div id="page-wrapper">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>La pougne</h1>
-								<p><italic>16h de pougne par jour tu ne dépasseras !</italic></p>
-							</div>
-						</div>
-						<nav>
+					<header id="header" class="alt">
+						<h1><a href="index.html">Piston 3</a></h1>
+						<nav id="nav">
 							<ul>
-								<li><a href="#intro">Journée type</a></li>
-								<li><a href="#work">L'esprit-co</a></li>
-								<li><a href="#about">Les Pistonnes</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<li><a href="#elements">Elements</a></li>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Accueil</a></li>
+											<li><a href="ginette.html">Ginette</a></li>
+											<li><a href="piston3.html">La Piston 3</a></li>
+											<li><a href="pougne.html">La Pougne</a></li>
+											<li><a href="photos.html">Photos</a></li>
+										</ul>
+									</div>
+								</li>
 							</ul>
 						</nav>
 					</header>
@@ -64,7 +61,7 @@
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-<center><font size="5px"><p>Cher visiteur, bonjour,<br>
+                                <center><font size="5px"><p>Cher visiteur, bonjour,<br>
 tu te demandes sûrement à quoi ressemble la vie à Ginette.<br>
 Il est malheureusement impossible d'en donner une description exhaustive tellement celle-ci est intense.<br>
 En voici donc (comme dirait le prof de Maths) une "approche informelle".</p></font></center>
@@ -119,7 +116,7 @@ En voici donc (comme dirait le prof de Maths) une "approche informelle".</p></fo
 									
 									Petite particularité en Piston 3, le jeudi est également le jour du dard mais ça : Tu verras… </p>
 									
-									<hr>
+								<hr />
 
 
 								<h3 id="sport">Le Sport à Ginette</h3>
@@ -206,6 +203,7 @@ En voici donc (comme dirait le prof de Maths) une "approche informelle".</p></fo
 								<h3>Les activités culturelles</h3>
 								<p>Les activités culturelles sont des opportunités d'étendre sa culture ou de se détendre tout simplement!
 									Nous avons droit à tout type d'activités : 
+                                </p>
 									<ul>
 										<li>Les conférences (pour le concours général de théologie ou bien d'intervenants badass, 
 											du type General de Villiers)
@@ -217,9 +215,8 @@ En voici donc (comme dirait le prof de Maths) une "approche informelle".</p></fo
 										<li>La musique avec un orchestre symphonique le mercredi midi et de nombreuses 
 											salles de musique avec des pianos, et une acoustique d’enfer ! </li>
 									</ul>
-									</p>
 
-									<hr>
+								<hr />
 
 									<h3>La spiritualité de la Bj</h3>
 									<p>Ginette est souvent surnommée la BJ, mais savez-vous pourquoi ? Simplement pour Boîte à Jésuite. 
@@ -244,19 +241,18 @@ En voici donc (comme dirait le prof de Maths) une "approche informelle".</p></fo
 					</footer>
 
 			</div>
-			</div>
 
 		<!-- BG -->
 			<div id="bg"></div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/pougne.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/fleche.js"></script>
 			<script src="assets/js/plusoumoins.js"></script>
 
 	</body>
